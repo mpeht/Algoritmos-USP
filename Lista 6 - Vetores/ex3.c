@@ -26,7 +26,7 @@ scanf("%d", &n);
 	vetor[lado]++;
 	}
 
-	for(i = 1; i <= n; i++)
+	for(i = 1; i <= sizeof(vetor); i++)
 	{
 	if(vetor[i] != 0) { printf("A face %d caiu %d vezes. \n", i, vetor[i]); }	
 	} 
